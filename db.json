@@ -1,0 +1,58 @@
+{
+    "tattoos": {
+        "Traditional": [
+            {"name": "Rose", 
+             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4UoRovlKiCtiXUt1bXuGF1J9vbN_HThXS1g&usqp=CAU", 
+            "artist": "tradartist@gmail.com"
+            },
+            {"name": "Snake",
+             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVelWa68qATw50XKKIby8otP6Kv-YTx9jO0w&usqp=CAU",
+             "artist": "snakeydude@gmail.com"
+            },
+            {"name": "Panther",
+             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6v95i6UmFBllzGbferObdclwWemtCEFmxRA&usqp=CAU" ,
+             "artist": "traddydude@hotmail.com"
+            },
+            {"name": "Dagger",
+             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjaWkb8KljojK6E4LPt82R942n9rJhuh5SQ&usqp=CAU",
+             "artist": "yourtradgal@yahoo.com"
+        }
+        ],
+        "Realism": [
+            {"name":"Horror",
+             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrc2lfYIJtI8Hr8ubO1AEabvE_DHbqEF89Q&usqp=CAU",
+             "artist":"realismartist@gmail.com"
+            },
+            {"name":"Portrait",
+             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNq4sLBQDZPyF-nOo2fHeT9BVjOalYS7d6w&usqp=CAU",
+             "artist":"realtats@gmail.com"
+            },
+            {"name":"Pet",
+             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-V5uanL8Hqa0HIjYgidY1TL0rlUZr02Ikg&usqp=CAU",
+             "artist":"keeptatsreal@gmail.com" 
+            },
+            {"name":"Greek Mythology",
+             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9qvNYbQcK0K8lB7o-7KK6yF_rYdsBYGnW0w&usqp=CAU",
+             "artist": "johndoe@gmail.com"
+            }
+        ],
+        "Japanese": [
+            {"name":"Koi Fish",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicrQEpoJEckcXF2fZKzf1D-pP7PUOQwLamQ&usqp=CAU",
+            "artist":"sakura7@gmail.com"
+            },
+            {"name": "Dragon",
+             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkk5aEfJlYyCr5nd0lL3OSzwvepzEVGyMVw&usqp=CAU",
+            "artist":"dragon.tat@gmail.com"
+            },
+            {"name": "Floral",
+            "image":"https://impeccablenestdesign.com/wp-content/uploads/2023/09/japanese-flower-tattoo-meanings-650484605401c.jpg",
+            "artist":"ab.tats@yahoo.com"
+            },
+            {"name": "Hannya",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToa5Jl0ilWTdDdyYC8B9osADs1Ut-3V9CHfg&usqp=CAU",
+            "artist": "lbtattoo@hotmail.com"}
+        ]
+
+    }
+}
