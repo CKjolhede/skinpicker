@@ -1,6 +1,6 @@
 {
     "tattoos": {
-        "Traditional": [
+        "traditional": [
             {"name": "Rose", 
              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4UoRovlKiCtiXUt1bXuGF1J9vbN_HThXS1g&usqp=CAU", 
             "artist": "tradartist@gmail.com"
@@ -18,7 +18,7 @@
              "artist": "yourtradgal@yahoo.com"
         }
         ],
-        "Realism": [
+        "realism": [
             {"name":"Horror",
              "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFrc2lfYIJtI8Hr8ubO1AEabvE_DHbqEF89Q&usqp=CAU",
              "artist":"realismartist@gmail.com"
@@ -36,7 +36,7 @@
              "artist": "johndoe@gmail.com"
             }
         ],
-        "Japanese": [
+        "japanese": [
             {"name":"Koi Fish",
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicrQEpoJEckcXF2fZKzf1D-pP7PUOQwLamQ&usqp=CAU",
             "artist":"sakura7@gmail.com"
