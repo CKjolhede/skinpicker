@@ -6,6 +6,7 @@
 // Global
 const URL = 'http://localhost:3000/tattoos'
 var tatObj 
+let selectedTattooImg
 
 // DOM Selectors
 const traditional = document.querySelector("#traditional")
@@ -24,13 +25,15 @@ function renderTattoos(tatArray) {
     tatArray.forEach(tatPic => {
     const tatImg = document.createElement('img')
     tatImg.src = tatPic.image
-    document.getElementById('grid-container').appendChild(tatImg)
+    document.querySelector("div.grid-container").appendChild(tatImg)
     tatImg.addEventListener("click" , () => {
 
     })
     console.log(tatPic)
 })
 }
+
+
 
 // event listeners
 traditional.addEventListener('click', () => { renderTattoos(tatObj.traditional) })
