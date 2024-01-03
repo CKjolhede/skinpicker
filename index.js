@@ -22,7 +22,7 @@ fetchTattoo()
 
 function renderTattoos(tatArray) { 
     tatArray.forEach(tatPic => {
-    var tatImg = document.createElement('img')
+    const tatImg = document.createElement('img')
     tatImg.src = tatPic.image
     document.getElementById('grid-container').appendChild(tatImg)
     tatImg.addEventListener("click" , () => {
@@ -34,5 +34,5 @@ function renderTattoos(tatArray) {
 
 // event listeners
 traditional.addEventListener('click', () => { renderTattoos(tatObj.traditional) })
-
-
+realism.addEventListener('click', () => { renderTattoos(tatObj.realism) })
+japanese.addEventListener('click', () => { renderTattoos(tatObj.japanese) })
