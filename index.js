@@ -40,7 +40,7 @@ function renderSelected(selected) {
 	var selectedImg = document.createElement('img')
 	selectedImg.src = selected.image
 	var selectedName = document.createElement('p')
-	selectedName.innerText = `${selected.name}`
+	selectedName.innerText = `${selected.name}` 
 	var selectedEmail = document.createElement('p')
 	selectedEmail.innerText = `${selected.artist}`
 	console.log(selected)

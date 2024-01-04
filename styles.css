@@ -7,18 +7,19 @@
 body {
 	padding: 1rem;
 	text-align: left;
-	background-color: #fafafa;
+	background-color:black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: left;
+	color: white;
+	
 }
 
 header {
 	padding: 0.5rem;
 	width: 100%;
 	color: white;
-	background-color: black;
+	text-align: center;
 }
 
 #grid-container {
@@ -27,8 +28,10 @@ header {
 	grid-template-rows: 100px 100px;
 	grid-gap: 175px;
 	align-content: space-evenly;
+	color: white;
 	
 }
+
 
 .center{
 	margin: auto;
@@ -42,5 +45,12 @@ header {
 	position: absolute;
     top: 100px;
 	left: 50px;
+	
+}
+div > button {
+	background-color: darkolivegreen;
+	width: 100px;
+	border-radius: 15px;
+	float: right;
 	
 }
