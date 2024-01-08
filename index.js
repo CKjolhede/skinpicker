@@ -52,6 +52,8 @@ function renderSelected(selected) {
 	document.getElementById('grid-container').appendChild(selectedImg)
 	document.getElementById('grid-container').appendChild(selectedName)
 	document.getElementById('grid-container').appendChild(selectedEmail)
+	selectedName.addEventListener('mousedown', () => {selectedName.style.fontSize = "200%"	})
+	selectedName.addEventListener('mouseup', () => { selectedName.style.fontSize ="100%" })
 	// console.log()
 }
 const button = document.getElementById('random');
