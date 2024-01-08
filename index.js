@@ -54,13 +54,19 @@ function renderSelected(selected) {
 	document.getElementById('grid-container').appendChild(selectedEmail)
 	// console.log()
 }
+const button = document.getElementById('random');
 
 // event listeners
 traditional.addEventListener('click', () => { renderTattoos(tatObj.traditional) })
 realism.addEventListener('click', () => { renderTattoos(tatObj.realism) })
 japanese.addEventListener('click', () => { renderTattoos(tatObj.japanese) })
 random.addEventListener('click', () => { randomSelect(tatObj) })
-
+button.addEventListener('mouseover', function() {
+	button.style.backgroundColor = 'pink';
+});
+button.addEventListener('mouseout', function() {
+	button.style.backgroundColor = 'darkolivegreen';
+});
 // random stuff
 
 function randomSelect(tatObj) {
